@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Emmanuel Roldan</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpeg" alt="Emmanuel Roldan">
+            </div>
+            <h1>Emmanuel Roldan</h1>
+            <h2>Desarrollador - Lic. Comunicación Social</h2>
+            <div class="redes">
+                <a href="https://es-la.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://ar.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="http://emmativo.com" target="_blank"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Emmanuel Roldan</span> (Licenciado en Comunicación Social y Programador Web). Aqui vas a poder conocerme y ver algunos de los trabajos que estoy realizando uniendo mis dos pasiones: la creatividad y la programación.</p>
+
+            <div class="fila">
+                <!-- Datos Personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-09-1986
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            0123 456
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            sarasa@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.emmativo.com
+                        </li>
+                        <li>
+                            <strong>País</strong>
+                            Argentina
+                        </li>
+                    </ul>
+                </div>
+    <!-- intereses -->
+   <div class="col">
+     <h3>Intereses</h3>
+    <div class="contenedor-intereses">
+        <div class="interes">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>JUEGOS</span>
+        </div>
+        <div class="interes">
+            <i class="fa-solid fa-headphones"></i>
+            <span>MUSICA</span>
+        </div>
+        <div class="interes">
+            <i class="fa-solid fa-plane"></i>
+            <span>VIAJAR</span>
+        </div>
+        <div class="interes">
+            <i class="fa fa-film"></i>
+            <span>PELICULAS</span>
+        </div>
+        <div class="interes">
+            <i class="fa-solid fa-person-hiking"></i>
+            <span>DEPORTE</span>
+        </div>
+        <div class="interes">
+            <i class="fa-solid fa-book"></i>
+            <span>LIBROS</span>
+        </div>
+        <div class="interes">
+            <i class="fa fa-podcast"></i>
+            <span>PODCAST</span>
+        </div>
+        <div class="interes">
+            <i class="fa-solid fa-camera"></i>
+            <span>FOTOS</span>
+        </div>
+        
+    </div>
+</div>
+</div>
+            <button> <a href="download/EmmanuelRoldan.pdf" download target="_blank" ><i class="fa-solid fa-download"></i>
+                Descargar CV<span class="overlay"></span></a>
+             </a>
+                
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso bootstrap">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso php">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso MySQL">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Marketing</span>
+                        <div class="barra-skill">
+                            <div class="progreso Marketing">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Producción Radio y TV</span>
+                        <div class="barra-skill">
+                            <div class="progreso Produccion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Escritura Creativa</span>
+                        <div class="barra-skill">
+                            <div class="progreso Escritura">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Periodismo</span>
+                        <div class="barra-skill">
+                            <div class="progreso Periodismo">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Programación Web Full Stack</h4>
+                        <span class="casa">Universidad Tecnologica Nacional</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Creación y mantenimiento de páginas web, tanto en el Back como en el Front, mediante la utilización de diferentes tecnologias (Html, Css, Bootstrap, Javascript, Php y MySQL).
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Creatividad</h4>
+                        <span class="casa">Cursos Personales</span>
+                        <span class="fecha">2010 - 2020</span>
+                        <p>Cursos de especialización en escritura creativa para historias y su adaptabilidad a distintos soportes, marketing y publicidad en general.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Comunicación y Periodismo</h4>
+                        <span class="casa">Universidad Nacional de La Plata</span>
+                        <span class="fecha">2005 - 2010</span>
+                        <p>Licenciatura en Comunicación Social, con orientación en Periodismo. Carrera en la que se aprendió a crear y producir ideas, notas y programas en diferentes formatos y estilos de Medios de Comunicación.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Marketing - Programación</h4>
+                        <span class="casa">1730 Desing</span>
+                        <span class="fecha">2016 - Actualidad</span>
+                        <p>Emprendimiento dedicado a la creaci6n y mantenimiento de arcades. También muebles de diseño. Encargado de análisis de mercado y competencia, publicidad (banners y redes). Venta y atención post venta de clientes.
+                        Edición de Frontend (programas base de funcionamiento).
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Marketing/Operario</h4>
+                        <span class="casa">Frigorífico Rydhans</span>
+                        <span class="fecha">2011 - 2016</span>
+                        <p>Participe en el área de Recurses Humanos y Marketing en la realización de informes situacionales (análisis de riesgo, mercado y laborales). También en analizar y mejorar la estrategia de comunicación interna (relación empleado/empresa) y externa de la fábrica (lanzamiento de nuevos productos). Ellos abarcaron análisis de posicionamiento de marca; Branding y Briefing.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Productor General - Productor Creativo</h4>
+                        <span class="casa">Radios Comunitarias y Radio Universidad de Luján</span>
+                        <span class="fecha">2005 - 2011</span>
+                        <p>Emprendimientos personales radiales donde realice las tareas de conductor y productor general y creativo; análisis de audiencias. Armado de proyectos y realización: cortinas musicales, canción oficial del programa, radioteatros y separadores actuados. Edición de audio y video para canalde Youtube.
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <a href="http://www.emmativo.com" target="_blank"><div class="proyecto">
+                    <img src="img/p1.jpeg" alt="Cuento Interactivo">
+                    <div class="overlay">
+                        <h3>Emmativo</h3>
+                        <p>Cuento Interactivo</p>
+                    </div>
+                </div></a>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>1730 Desing</h3>
+                        <p>Arcade</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Comunicación y Periodismo</h3>
+                        <p>Blog</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Loop.photo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Turismo</h3>
+                        <p>Viajes y Paseos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Videojuegos</h3>
+                        <p>Reseñas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <form action="https://formsubmit.co/cvdeprueba@hotmail.com" method="POST"><div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" name="nombre" placeholder="Tú Nombre">
+                    <input type="text" name="numero telefonico" placeholder="Número telefónico">
+                    <input type="email" name="email" placeholder="Dirección de correo">
+                    <input type="text" name="tema" placeholder="Tema">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div></form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://es-la.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://ar.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="http://emmativo.com" target="_blank"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
